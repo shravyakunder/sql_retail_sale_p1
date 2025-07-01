@@ -66,7 +66,8 @@ WHERE sale_date IS NULL
    OR cogs IS NULL;
 
 -- Data analysis 
-Below are business-oriented queries used to derive insights from the sales dataset:
+Below are queries used to derive insights from the sales dataset:
+
 1. All sales from November 5, 2022:
 SELECT * 
 FROM retail_sales 
