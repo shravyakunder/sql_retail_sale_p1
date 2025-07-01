@@ -15,7 +15,7 @@ Start by creating a new database and defining the schema for the sales records.
 
 CREATE DATABASE p1_retail_sale;
 
-CREATE TABLE retail_sales (
+'''CREATE TABLE retail_sales (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,
     sale_time TIME,
@@ -27,7 +27,7 @@ CREATE TABLE retail_sales (
     price_per_unit FLOAT,
     cogs FLOAT,
     total_sale FLOAT
-);
+);'''
 
 -- Data Cleaning 
 Perform a series of checks to understand the quality and composition of the dataset:
